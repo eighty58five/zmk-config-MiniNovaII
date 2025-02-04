@@ -105,8 +105,8 @@
         };
          navi_layer {
             bindings = <
-    &kp TAB    &kp UP    &trans     &trans     &trans     &msc SCRL_UP  &mkp LCLK    &mmv MOUSE_UP    &mkp RCLK    &kp BSPC
-    &kp LEFT    &kp DOWN    &kp RIGHT     &trans     &msc SCRL_LEFT     &msc SCRL_DOWN  &mmv MOUSE_LEFT   &mmv MOUSE_DOWN    &mmv MOUSE_RIGHT
+    &kp TAB    &kp UP    &trans     &trans     &trans     &msc SCRL_UP  &mkp LCLK    &mmv MOVE_UP    &mkp RCLK    &kp BSPC
+    &kp LEFT    &kp DOWN    &kp RIGHT     &trans     &msc SCRL_LEFT     &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN    &mmv MOVE_RIGHT
     &trans     &trans    &trans     &trans  &trans  &trans  &trans    &trans
     &trans  &trans  &trans   &trans   &trans
             >;
